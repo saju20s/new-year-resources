@@ -9,9 +9,16 @@ body {
 }
 
 .header {
-    position: relative;
-    text-align: center;
-    color: white;
+     font-family: "Merriweather", serif;
+  width: 1320px;
+  height: 650px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png") no-repeat center/cover;
+  margin: auto;
+  position: relative;
+  text-align: center;
+
 }
 
 .header img {
@@ -19,6 +26,7 @@ body {
     height: auto;
     display: block;
     border-radius: 16px;
+    opacity: 30%;
     
                 
 }
