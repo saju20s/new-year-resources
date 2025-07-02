@@ -5,15 +5,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    color: #070211;
+    color: #111111;
 }
 
 .header {
      font-family: "Merriweather", serif;
-  width: 1320px;
-  height: 650px;
+  width: 1200px;
+  height: 550px;
   border-radius: 16px;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+  background: linear-gradient(180deg, #070211 0%, rgba(232, 228, 241, 0) 100%),
     url("../images/Banner\ Image.png") no-repeat center/cover;
   margin: auto;
   position: relative;
@@ -47,7 +47,7 @@ body {
 
 .header h1 {
     font-family: 'Merriweather', serif;
-    font-size: 72px;
+    font-size: 65px;
     font-weight: 900;
     line-height: 1.2;
     margin: 10px 0;
@@ -61,7 +61,7 @@ body {
 .offer-section h2 {
     color: #FF0000;
     font-family: 'Inter', sans-serif;
-    font-size: 88px;
+    font-size: 70px;
     font-weight: 700;
     margin: 0;
 }
@@ -69,7 +69,7 @@ body {
 .offer-section p {
     color: #FF0000;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 20px 0;
 }
 
@@ -86,7 +86,7 @@ body {
     background-image: url('../images/Vectorrr.png');
     background-size: cover;
     background-position: center;
-    padding: 120px 60px;
+    padding: 100px 50px;
     color: white;
     display: flex;
     align-items: center;
@@ -248,7 +248,7 @@ body {
     left: 50px;
     bottom: 100px;
     z-index: 1;
-    width: 350px;
+    width: 300px;
 }
 
 .sale-images .discount-badge {
@@ -281,7 +281,7 @@ body {
 
 .portfolio h3 {
     font-family: 'Merriweather', serif;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 900;
     margin: 15px 0;
 }
@@ -290,18 +290,18 @@ body {
     font-size: 20px;
     color: rgba(7, 2, 17, 0.60);
     max-width: 800px;
-    margin: 0 auto 50px;
+    margin: 0;
     line-height: 1.6;
 }
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
 }
 
 .portfolio-grid img {
-    width: 100%;
+    width: 400px;
     border-radius: 16px;
     transition: transform 0.3s;
 }
@@ -324,7 +324,7 @@ body {
 
 .subscribe h4 {
     font-family: 'Merriweather', serif;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 900;
     margin: 30px 0 15px;
 }
@@ -344,7 +344,7 @@ body {
 }
 
 .subscribe-form input {
-    width: 400px;
+    width: 300px;
     padding: 20px;
     border: none;
     border-radius: 50px 0 0 50px;
@@ -352,7 +352,7 @@ body {
 }
 
 .subscribe-form button {
-    padding: 20px 40px;
+    padding: 20px 20px;
     border: none;
     background-color: #FF0000;
     color: white;
@@ -372,8 +372,8 @@ body {
 .footer-content {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
-    font-size: 24px;
+    margin-bottom: 40px;
+    font-size: 20px;
     line-height: 1.8;
 }
 
@@ -387,20 +387,20 @@ body {
 
 .social-icons {
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .social-icons a {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .footer-bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .footer-bottom a {
